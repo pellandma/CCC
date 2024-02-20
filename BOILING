@@ -1,0 +1,12 @@
+#BOILING
+
+B = int(input())
+P = 5 * B - 400
+if P > 100:
+    print(P,"\n", -1)
+elif P == 100:
+    print(P,"\n", 0)
+elif P < 100:
+    print(P,"\n",1)
+
+
