@@ -1,0 +1,19 @@
+N = 0
+i = 0
+bids = {}
+number = int(input())
+for i in range(number):
+    name = input()
+    amount = int(input())
+    bids[name] = amount
+    
+least = -100
+for n in bids:
+    if (bids[n] > least):
+        least = bids[n]
+
+for j in bids:
+    if(bids[j]==least):
+        print(j)
+        break
+
